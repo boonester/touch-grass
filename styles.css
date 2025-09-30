@@ -1,3 +1,42 @@
 body{
     background-color: black;
 }
+@font-face {
+    font-family: coolvetica;
+    src: url(fonts/CoolveticaRg.otf);
+}
+
+.container{
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 75px;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+a:hover{
+   transform: scale(1.25);
+}
+#title a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: coolvetica;
+    color: white;
+    font-size: 500%;
+    margin: 30px;
+}
+#title a:hover{
+    display: flex;
+    justify-content: center;
+    font-family: coolvetica;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-size: 500%;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    transform: scale(1);
+}
